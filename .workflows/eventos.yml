@@ -1,0 +1,9 @@
+name : Ejercicios 
+on : 
+  schedule : 
+    - cron : "2 16 * * *"
+jobs :
+  log-date :
+    runs-on : ubuntu-latest
+    steps:
+      - run : date
